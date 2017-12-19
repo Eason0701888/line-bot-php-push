@@ -16,7 +16,7 @@ $response = $bot->pushMessage($to, $textMessageBuilder);
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 */
 $message_obj = [
-    "to" => "Ue004c4797cf171301dccf7e7d8ef7d62",
+    "to" => $to,
     "messages" => [
       [
         "type" => "text",
@@ -33,6 +33,8 @@ curl_setopt($curl, CURLOPT_HTTPHEADER, array("Content-Type: application/json;cha
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($message_obj));
 $result=curl_exec($curl);
+echo $message_obj;
+echo "</br>";
 echo $result;
  ?>
 
