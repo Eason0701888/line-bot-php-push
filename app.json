@@ -5,10 +5,10 @@
   "keywords": ["linebot-php", "LINE"],
   "env": {
     "LINE_CHANNEL_SECRET": {
-      "description": "LINE Channel Secret"
+      "description": "LINE  Channel_Secret"
     },
     "LINE_CHANNEL_ACCESSTOKEN": {
-      "description": "LINE Channel Accesstoken(Should issued first)"
+      "description": "LINE  Access_Token"
     }
     
   }
