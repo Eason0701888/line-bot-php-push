@@ -17,9 +17,9 @@
  */
 require_once('./LINEBotTiny.php');
 require_once __DIR__ . '/vendor/autoload.php';
-$CHANNEL_ACCESS_TOKEN="VfcdUobfc4kKV+SbzTXQDOnvBjpFIkJqla35htny9vPB+3uVC9B5Dkwy6e6eSDGjbJQyHQMVk9+W9ALd7+Px4LcmAZMxoaE1Qyvgkzk0B99Q6vQCMusoUsjR6UHtZDHzgYrNY9OYzefblJvD7CxNCwdB04t89/1O/w1cDnyilFU=";
-$CHANNEL_SECRET="7e61c3a59c473a50f7d2f691669751a0";
-$to_me="U4a26dead451bc002afd416b24050216c";
+$CHANNEL_ACCESS_TOKEN="aUZJ9DHli5JRgpNI7PZ7nETW5lKiEbfGsnl3ea5hLvTrxqaWKJwsAA23SAwW8VuWk97iuN4CoPWt3Hmsnw9KAegFN6F0ktju+dOwJTShht7rX5qn16yRSfRhKFIATrpcEoNOvaE4/t5i4fHL9 TXHEwdB04t89/1O/w1cDnyilFU=";
+$CHANNEL_SECRET="af40cf2c621a10dad6dff3b076ccac57";
+$to_me="U30c3973145017ec0a130b1d946cd14e1";
 $to_ya="";
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
